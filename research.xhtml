@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+<head>
+  <meta property="dc:creator"
+        content="Martin Rezk" />
+
+  <title>Martin Rezk - Homepage</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+
+
+
+
+
+
+
+<!-- MENU -->
+<body vocab="http://purl.org/dc/terms/">
+  <div class="menu">
+    <ul>
+      <li><a property="foaf:homepage"
+         href="index.xhtml">Home</a></li>
+
+      <li><a href="research.xhtml">Research</a></li>
+
+      <li><a href="contact.html">Contact Information</a></li>
+
+      <li><a href="aboutme.html">About Me</a></li>
+
+      <li><a href="links.html">Links</a></li>
+    </ul><br style="clear:left" />
+  </div>
+
+
+
+
+
+
+<div id="page-wrap">
+	<span rel="foaf:img"><img src="images/martin.png" alt="Photo of Martin" id="pic" width="240" height="300" /></span>
+	<div id="contact-info" class="vcard">
+		<!-- Microformats! -->
+		<div about="#me" typeof="foaf:Person">
+			<h1 class="fn">
+				<span property="foaf:name">Martin Rezk - PhD.</span>
+			</h1>
+		</div><!-- END of PERSON -->
+	</div>
+	<p>
+		<span property="foaf:interest"  style=" font-size: 15px; ">
+			My research interests are in the areas of (but not limited to) Ontology Based Data Access (OBDA), 
+			Knowledge Representation and Reasoning (KRR) and Natural Language Processing (NLP).</span>
+	</p>
+	<ul>
+		<li>
+			<span property="foaf:interest" style=" font-size: 15px; ">My main research topic now is efficient query answering for OBDA. In Ontology Based Data Access (OBDA), the objective is to access data trough a conceptual layer. Usually, this conceptual layer is expressed in the form of an OWL or RDFS ontology, and the data is stored in relational databases. The terms in the conceptual layer are mapped to the data layer using mappings. I have intensively worked on query rewriting techniques for OBDA. That is, answer the queries posed by the user (e.g., SPARQL queries) by translating them into queries over the database (e.g., SQL).</span>
+		</li>
+		<li>
+			<span property="foaf:interest" style=" font-size: 15px; ">In my Ph.D. dissertation, I worked modeling and reasoning over domains that change over time using Transaction Logic (TR). I extended TR to model and reason with recursive, non-monotonic, and complex actions. I have also worked providing logical reconstructions of the semantics of Production systems in Mu-Calculus, Fix Point logic, and Transaction Logic. Along the same line, I also provided an operational semantics and a model-theoretic semantics for the combination of production systems with description logic ontologies.</span>
+		</li>
+		<li>
+			<span property="foaf:interest " style=" font-size: 15px; ">Regarding NLP, I have worked on natural language generation, and a framework that allows processing Korean text, efficiently producing RDF triples, and querying the outcome using SPARQL. The final goal was to chain several Korean NLP tools and be able to efficiently publish the outcome on the web linking Korean text entities with Wikipedia/DBpedia.</span>
+		</li>
+	</ul><!--End of interst -->
+	<p class="interest">
+		
+	See my (partially) complete publication list <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/r/Rezk:Mart=iacute=n.html">Here</a> and my CV <a href='pdf/martinrezkCV.pdf'>Here</a>
+</p>
+	<center>
+		<p class="quote">
+			''My undertaking is not difficult,<br />
+			essentially. I should only have to<br />
+			be immortal to carry it out.''<br />
+			Jorge Luis Borges,<br />
+			Pierre Menard, Author of The Quixote<br />
+		</p>
+	</center>
+</div>
+
+</body>
+</html>
