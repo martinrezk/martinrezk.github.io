@@ -8,7 +8,6 @@
 <head>
   <meta property="dc:creator" content="Martin Rezk" />
 
-<div itemscope itemtype="http://schema.org/Person">
   <title> Martin Rezk - Homepage</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
@@ -31,12 +30,13 @@
 
 
 
+
 <!-- MENU -->
-<body vocab="http://purl.org/dc/terms/">
+<body vocab="http://purl.org/dc/terms/" itemscope itemtype="http://schema.org/Person">
   <div class="menu">
     <ul>
       <li><a property="foaf:homepage"
-         href="index.xhtml" itemprop='url'>Home</a></li>
+         href="index.html" itemprop='url'>Home</a></li>
 
       <li><a href="research.xhtml">Research</a></li>
 
@@ -63,10 +63,13 @@
 
     <div id="contact-info"
          class="vcard">
-      <h1 class="fn"> <span  itemprop='name'><span property="foaf:name">  
-	      Dr. <span  itemprop='givenName'>Martin</span> 
-	       <span  itemprop='familyName'> Rezk</span> 
-       </span> </span>  <span property="foaf:title"></span></h1>
+      <h1 class="fn" > 
+	  <span property="foaf:name">  
+	      <span property="foaf:title">Dr. </span>  
+		  <span  itemprop='givenName'  >Martin</span> 
+	      <span  itemprop='familyName'> Rezk</span> 
+	  </span>
+   </h1>
 
       <p><span style=
       " font-size: 15px; margin: 0 0 6px 0; position: relative; font-style: oblique; font-variant: small-caps;">
@@ -76,9 +79,9 @@
     <div id="objective">
 		
 
-	         <p>I am currently a 
+	         <p itemprop='description'>I am currently a 
 				 <span itemprop='jobTitle'>senior scientist </span> at    
-				 <a href='http://global.rakuten.com/corp/worldwide/'><span itemprop='affiliation'> Rakuten Inc.</span></a>. 
+				 <a href='http://global.rakuten.com/corp/worldwide/'><span itemprop='worksFor'> Rakuten Inc.</span></a>. 
 			 
 			I am working mainly on market segmentation, 
 			semantic information extraction, and profiling for the finance sector. 
@@ -106,7 +109,7 @@
     <dt>Publications (Journals)</dt>
       <dd>
 	 
-	 	 <h2> Ontology-based data integration in EPNet: Production and distribution of food during the Roman Empire. </h2>
+	 	 <h2 itemprop='author'> Ontology-based data integration in EPNet: Production and distribution of food during the Roman Empire. </h2>
          <p class='items'>  Engineering Applications of Artificial Intelligence, 2016.</p>
 
          <h2>Optique -- zooming in on big data access.</h2>
