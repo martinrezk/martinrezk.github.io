@@ -321,7 +321,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner .promo-banner-title {
-  font-size: 50px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -329,8 +329,10 @@ fieldset[disabled] .btn-theme {
     text-align: left;
   font-size: 20px;
   color: #fff;
+  font-color: #000000;
   opacity: .8;
 }
+
 
 /*------------------------------------------------------------------
   	[Promo Block]
