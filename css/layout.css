@@ -92,13 +92,13 @@ span {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Hind, sans-serif;
-  color: #515769;
+  color: #000000;
   line-height: 1.4;
   margin: 0 0 15px;
 }
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  color: #515769;
+  color: #000000;
 }
 
 h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hover {
@@ -341,28 +341,33 @@ fieldset[disabled] .btn-theme {
   position: relative;
   background: #fafafa;
   padding-top: 220px;
+  font-color: #000000
 }
 
 @media (max-width: 768px) {
   .promo-block {
     text-align: center;
     padding-top: 170px;
+	font-color: #000000
   }
 }
 
 .promo-block .promo-block-title {
   font-size: 70px;
   line-height: 1;
+  font-color: #000000
 }
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
     font-size: 50px;
+	font-color: #000000
   }
 }
 
 .promo-block .promo-block-text {
   font-size: 25px;
+  font-color: #000000
 }
 
 .promo-block .promo-block-img-wrap {
