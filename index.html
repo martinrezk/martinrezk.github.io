@@ -37,38 +37,91 @@
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
 
-		<script type="application/ld+json">
+
+
+
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Martín Rezk",
-  "givenName": "Martín",
-  "familyName": "Rezk",
-  "honorificSuffix": "PhD",
-  "jobTitle": "Senior Ontologist",
-  "alumniOf": [
+  "@graph": [
     {
-      "@type": "CollegeOrUniversity",
-      "name": "Free University of Bozen-Bolzano"
+      "@type": "Person",
+      "name": "Martín Rezk",
+      "givenName": "Martín",
+      "familyName": "Rezk",
+      "honorificSuffix": "PhD",
+      "jobTitle": "Senior Ontologist, Researcher & Data Scientist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Google"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Free University of Bozen-Bolzano"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidad Nacional de Córdoba"
+        }
+      ],
+      "knowsAbout": ["Semantic Web", "Knowledge Graphs", "Large Language Models", "Ontology", "NLP", "Information Extraction", "Data Integration"],
+      "url": "http://www.martinrezk.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/mart%C3%ADn-rezk-0a89977/",
+        "http://dblp.uni-trier.de/pers/hd/r/Rezk:Mart=iacute=n"
+      ],
+      "image": "img/mockup/01.jpg"
     },
     {
-      "@type": "CollegeOrUniversity",
-      "name": "Universidad Nacional de Córdoba"
+      "@type": "ScholarlyArticle",
+      "headline": "Accurate Product Attribute Extraction on the Field",
+      "author": {
+        "@type": "Person",
+        "name": "Martín Rezk"
+      },
+      "url": "http://disi.unitn.it/~pavel/OM/articles/Calvanese_iswc15.pdf",
+      [cite_start]"description": "We tackled the problem of extracting attribute information from product pages. [cite: 61]",
+      [cite_start]"about": "Information Extraction [cite: 58]",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "name": "Proceedings of the IEEE International Conference on Data Engineering (ICDE) 2019"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Efficient SPARQL-to-SQL with R2RML mappings",
+      "author": {
+        "@type": "Person",
+        "name": "Martín Rezk"
+      },
+      
+      "description": "We proposed a formal approach for SPARQL-to-SQL translation that (i) generates efficient SQL; (ii) [cite_start]provides a well-defined specification of the SPARQL semantics; and (iii) supports R2RML mappings. [cite: 64, 65]",
+      [cite_start]"about": "Data Integration [cite: 57]",
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "name": "Journal of Web Semantics"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "headline": "Extracting Semantic Information for e-Commerce",
+      "author": {
+        "@type": "Person",
+        "name": "Martín Rezk"
+      },
+      
+      [cite_start]"description": "We proposed an approach to automatically tags items with the new semantic information extracted from text and expose them as RDF triple [cite: 67]",
+      [cite_start]"about": "Information Extraction [cite: 60]",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "name": "Proceedings of the International Semantic Web Conference (ISWC) 2016"
+      }
     }
-  ],
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Google"
-  },
-  "knowsAbout": ["Semantic Web", "Knowledge Graphs", "Large Language Models", "Ontology", "NLP"],
-  "url": "http://www.martinrezk.com",
-  "sameAs": [
-    "https://www.linkedin.com/in/mart%C3%ADn-rezk-0a89977/",
-    "http://dblp.uni-trier.de/pers/hd/r/Rezk:Mart=iacute=n"
-  ],
-  "image": "img/mockup/01.jpg"
+  ]
 }
 </script>
+		
     </head>
     <!-- END HEAD -->
 
@@ -546,6 +599,7 @@ Ana Shua. - La Surenia.
     </body>
     <!-- END BODY -->
 </html>
+
 
 
 
